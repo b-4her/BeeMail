@@ -2,7 +2,6 @@
 #### Video Demo:  <URL [HERE](https://youtu.be/HhA8Dpr6IvQ)>
 #### In-Depth Demo: <URL [HERE](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7)>
 #### Description:
-```
 
 some notes;
 Add the database chart in the readme file
@@ -90,10 +89,10 @@ Provide a downloadable or viewable link to the complete database schema.
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/project.git
-```
 
 
- the continuation is not readme structure .. so you hve to do it your self ! ( you can copy structures form the opened readme files)
+
+## the continuation is not readme structure .. so you hve to do it your self ! ( you can copy structures form the opened readme files)
 
 Navigate to the project directory:
 
