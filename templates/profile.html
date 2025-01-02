@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Profile
+{% endblock %}
+
+{% block main %}
+    <ul class="list-group" id="view_mails">
+        <li class="list-group-item list-group-item-warning" style="text-align: center;">Profile</li>
+        <li class="list-group-item"><span>Name:</span> {{ name.title() }}</li>
+        <li class="list-group-item"><span>Email:</span> {{ email }}</li>
+        <li class="list-group-item"></li>
+        <li class="list-group-item"><span>verification Question:</span> {{ verif_qs }}</li>
+        <li class="list-group-item"><span>Your Answer:</span> {{ verif_ansr.capitalize() }} </li>
+        <li class="list-group-item"></li>
+        <div class="profile_modif">
+            <li class="list-group-item"> <a href="/new_name"><span>-- Change Your Name -- </span></a></li>
+            <li class="list-group-item"> <a href="/new_verif"><span>-- Update Your Verification Info -- </span></a></li>
+        </div>
+
+        <li class="list-group-item">  </li>
+    </ul>
+{% endblock %}

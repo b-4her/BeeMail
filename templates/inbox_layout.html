@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}{% endblock %}
+
+{% block main %}
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-warning" style="text-align: center;"><h2>{% block title2 %}{% endblock %}</h2></li>
+        <li class="list-group-item">    
+            <div class="scrollable-table">
+            <table class="table table-striped thead-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Subject</th>
+                        <th scope="col">Sender</th>
+                        <th scope="col">Type</th>
+                        <th scope="col">Status</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Reply</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for mail in mails %}
+                        <tr>
+                            <td><a href="view/{{mail[0]}}"><span>{{ mail[2] }}</span></a></td>
+                            <td>{{ mail[7] }}</td>
+                            <td>{{mail[6]}}</td>
+                            <td>
+                                {% if mail[5] == 0 %}
+                                    <span style="color: goldenrod;">new</span>
+                                {% else %}
+                                    read
+                                {% endif %}
+                            </td>
+                            <td>{{ mail[3] }}</td>
+                            <td>{{ mail[4] }}</td>
+                            <td><a href="/reply/{{ mail[0] }}"><span>respond</span></a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </li>
+    </ul>
+
+{% endblock %}

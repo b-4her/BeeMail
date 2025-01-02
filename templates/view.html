@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    View
+{% endblock %}
+
+{% block main %}
+    <ul class="list-group" id="view_mails">
+        <li class="list-group-item list-group-item-warning" id="head" style="text-align: center;">VIEW</li>
+        <li class="list-group-item"><span>Sender:</span> {{ mail[7] }}</li>
+        <li class="list-group-item"><span>Recipient:</span> {{ mail[1] }}</li>
+        <li class="list-group-item"><span>Mail Type:</span> {{ mail[6] }}</li>
+        <li class="list-group-item"><span>Parent:</span> 
+            <span class="view_parent">
+                {% if parent_subject %}
+                    <a href="../view/{{ parent_id }}">{{ parent_subject }}</a>
+                {% else %}
+                    None (Primary)
+                {% endif %}
+            </span>
+        </li>
+        <li class="list-group-item"><span>Date/Time:</span> {{ mail[3] }} | {{ mail[4] }}</li>
+        <li class="list-group-item"><span>Subject:</span> {{ mail[2] }}</li>
+        <li class="list-group-item"><span>Content:</span> {{ mail[8] }}</li>
+      </ul>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Identity Verfication
+{% endblock %}
+
+{% block main %}
+    <h2>Identity Verification</h2>
+    <form action="/verify" method="post">
+        <div class="mb-3">
+            <input required autocomplete="off" class="form-control mx-auto w-auto" name="email" placeholder="username@beemail.hive" type="email" pattern="^[a-zA-Z]+[-_.a-zA-Z0-9]*@beemail.hive$">
+        </div>
+        <button class="btn btn-warning" type="submit" value="submit">Submit</button>
+    </form>
+{% endblock %}

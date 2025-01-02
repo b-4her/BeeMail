@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    New Name
+{% endblock %}
+
+{% block main %}
+    <h2>Setting New Name</h2>
+    <form action="/new_name" method="post">
+        <div class="mb-3">
+            <input required class="form-control mx-auto w-auto" name="name" placeholder="Full Name" type="text">
+        </div>
+        <button class="btn btn-warning" type="submit" value="submit">Update</button>
+    </form>
+    {% endblock %}

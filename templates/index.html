@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index Page
+{% endblock %}
+
+{% block main %}
+    
+    <div id="welcoming">
+        <!-- https://www.alamy.com/cute-honey-bee-welcome-hello-pose-hand-drawn-character-image364508561.html -->
+        <img src="/static/welcome.png" width="225" height="225" alt="welcome">
+        <h3>Hello, {{ name }}!</h3>
+        <br>
+        <h3>You have 
+            {% if new_mails_num == 0%} 
+                <span>no</span>
+            {% else %}
+                <span>{{ new_mails_num }} </span>
+            {% endif %}
+            <a style="font-weight: bold;" href="/new_primary">new mails</a> and 
+            {% if new_responses_num == 0%} 
+                <span>no</span>
+            {% else %}
+                <span>{{new_responses_num}}</span>
+            {% endif %}
+            <a style="font-weight: bold;" href="/new_responses"> new responses</a>!
+            <br> Feel free to review them by clicking on the highlighted words.</h3>
+    </div>
+
+{% endblock %}

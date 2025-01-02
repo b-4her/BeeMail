@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Compose
+{% endblock %}
+
+{% block main %}
+    <h2>Compose</h2>
+    <form action="/compose" method="post">
+        <div class="mb-3">
+            <input required  autofocus class="form-control mx-auto w-auto" name="recipient" placeholder="Recipient" type="text">
+        </div>
+        <div class="mb-3">
+            <input required autocomplete="off" class="form-control mx-auto w-auto" name="subject" placeholder="Subject" maxlength="20" type="text">
+        </div>
+        <div class="mb-3">
+            <textarea  required rows="5" cols="50" class="form-control mx-auto w-auto" name="content" placeholder="Content" type="text" maxlength="250"></textarea>
+        </div>
+        <button class="btn btn-warning" type="submit" value="submit">Send</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,146 @@
+/* Removing the small white boarder */
+.border {
+    border: none !important;
+}
+
+
+/* Specifiying the text attributes for the nav bar items */
+nav .navbar-nav .nav-item span {
+    font-size: large;
+    color: darkgoldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* Specifiying the text attributes for the logo text BeeMail */
+nav .navbar-brand #nav_logo_txt{
+    font-size: xx-large;
+    color: darkgoldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+
+/* Ading margin for the bee logo in the nav bar */
+nav .navbar-brand img { 
+    margin-left: 25%;
+}
+
+
+/* Adding Background Image */
+/* Bg source: https://www.freepik.com/free-photo/yellow-honeycomb-texture_11042204.htm?log-in=google#fromView=keyword&page=1&position=10&uuid=d01cbcad-a8a7-40d7-b795-4d5a742bb537&new_detail=true */
+body {
+    background-image: url('/static/bg.png');
+    background-size: 100vw 100vh;
+}
+
+
+/* Apology meme image */
+#apology {
+    margin-top: 5%;
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+
+/* footer Image (contact us) */
+#footer_img {
+    max-width: 8%;
+    margin-top: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-bottom: 0%;
+}
+
+
+footer span {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration-line: underline;
+}
+
+
+#forgot_password_link a {
+    color: black;
+    text-decoration: none;
+}
+
+
+td a, .view_parent a {
+    color: goldenrod;
+    text-decoration: none;
+}
+
+
+#welcoming a, .profile_modif a {
+    color: rgb(189, 147, 43);
+    text-decoration: underline;
+}
+
+
+#forgot_password_link a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+#forgot_password_link a:hover, td a:hover, .view_parent a:hover, #welcoming a:hover, .profile_modif a:hover{
+    color: rgb(155, 111, 2);
+    text-decoration: underline;
+}
+
+
+#login_logo_txt {
+    font-size: xx-large;
+    color: rgb(155, 111, 2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold; 
+}
+
+
+.table {
+    font-family: 'Inter', sans-serif;
+    border-collapse: collapse;
+}
+
+
+.table th {
+    text-align: left;
+    position: sticky;
+    top: 0;
+}
+
+
+.table td {
+    text-align: left;
+}
+
+
+.scrollable-table {
+    height: 30%;
+    overflow-y: auto;
+}
+
+
+#view_mails{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.list-group li {
+    text-align: left;
+}
+
+
+.list-group li span {
+    font-weight: bold;
+}

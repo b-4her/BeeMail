@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+    <h2>Setting New Verification Info</h2>
+    <form action="/new_verif" method="post">
+        <div class="mb-3">
+            <select required name="question" class="form-control mx-auto w-auto" id="questions">
+                <option disabled selected value> -- Select a security question --</option>
+                {% for type in questions %}
+                    <option value="{{ type.lower() }}">{{ questions[type] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="mb-3">
+            <input required class="form-control mx-auto w-auto" name="answer" placeholder="Your Answer" type="text">
+        </div>
+        <button class="btn btn-warning" type="submit" value="submit">Update</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Verfication Question
+{% endblock %}
+
+{% block main %}
+    <h2>Verfication Question:</h2>
+    <form action="/verifqs" method="post">
+        <div class="mb-3">
+            <p style="font-size: large;">{{ question }}</p>
+        </div>
+        <div class="mb-3">
+            <input required class="form-control mx-auto w-auto" name="answer" placeholder="Your Answer" type="text">
+        </div>
+        <button class="btn btn-warning" type="submit" value="submit">Submit</button>
+    </form>
+{% endblock %}

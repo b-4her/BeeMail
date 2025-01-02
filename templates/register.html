@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+    <h2>Register</h2>
+    <form action="/register" method="post">
+        <div class="mb-3">
+            <input required  autofocus class="form-control mx-auto w-auto" name="name" placeholder="Full Name" type="text">
+        </div>
+        <div class="mb-3">
+            <input required autocomplete="off" class="form-control mx-auto w-auto" name="email" placeholder="username@beemail.hive" type="email" pattern="^[a-zA-Z]+[-_.a-zA-Z0-9]*@beemail.hive$">
+        </div>
+        <div class="mb-3">
+            <input required class="form-control mx-auto w-auto" name="password" placeholder="Password" type="password" minlength="8" maxlength="16">
+        </div>
+        <div class="mb-3">
+            <input required class="form-control mx-auto w-auto" name="confirmation" placeholder="Password Confirmation" type="password" minlength="8" maxlength="16">
+        </div>
+        <div class="mb-3">
+            <select required name="question" class="form-control mx-auto w-auto" id="questions">
+                <option disabled selected value> -- Select a security question --</option>
+                {% for type in questions %}
+                    <option value="{{ type.lower() }}">{{ questions[type] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="mb-3">
+            <input required class="form-control mx-auto w-auto" name="answer" placeholder="Your Answer" type="text">
+        </div>
+        <button class="btn btn-warning" type="submit" value="submit">Submit</button>
+    </form>
+{% endblock %}
