@@ -1,4 +1,4 @@
-# BeeMail
+# BeeMail 
 
 ## Demo Link
 #### Quick Demo:  <URL [HERE](https://youtu.be/HhA8Dpr6IvQ)>
@@ -27,11 +27,10 @@ make video tutorial like adil?
 ---
 
 ## Overview
-This project is a web-based application that enables users to communicate via emails. 
-It is built using Flask, HTML, CSS, Jinja templates, and an SQL database.
+This project was developed as the final project for the CS50x course. It is a web-based application that allows users to send and receive emails. Built with Flask, HTML, CSS, Jinja templates, and a SQL database, the application integrates both front-end and back-end technologies to provide a seamless user experience.
 
 ### Goal
-The main goal of this project is to create a secure and efficient email communication platform while exploring advanced technical concepts like database management, hashing, and web development.
+The primary goal of this project was to apply the web development concepts and database skills I learned in CS50x by creating an integrated web application.
 
 ---
 
@@ -39,6 +38,7 @@ The main goal of this project is to create a secure and efficient email communic
 - **User Registration**: Validates email structure and checks for duplicates before hashing passwords for secure storage.
 - **Login System**: Ensures authentication by validating credentials against hashed passwords.
 - **Password Reset**: Allows users to reset their password securely using a verification question.
+- **Main Page**: Provides users with quick access to new emails and responses, streamlining communication.
 - **Inbox**: Displays received emails, marking them as read or unread based on user actions.
 - **Sent Items**: Allows users to review sent emails and their responses.
 - **Compose Email**: Enables users to send emails with subject, content, and recipient validation.
@@ -49,14 +49,14 @@ The main goal of this project is to create a secure and efficient email communic
 ---
 
 ## Database Design
-![Database Schema Image](#) <!-- Add a link or embed the image here -->
+![Database Chart Image](Database/db_diagram.png) <!-- Add a link or embed the image here -->
 
 ### Schema Reference
-Provide a downloadable or viewable link to the complete database schema.
+![Database Schema](Database/database_scheme.sql)
 
 ### Explanation
 - **Users Table**: Stores user details like name, email, hashed password, and verification question/answer.
-- **Message Details Table**: Tracks email content, date, time, and read/unread status.
+- **Message Details Table**: Tracks email content, date, time,  reply/primary type, and read/unread status.
 - **User Messages Table**: Links users to their sent and received emails.
 - **Responses Table**: Maps replies to their parent emails.
 
@@ -80,71 +80,48 @@ Provide a downloadable or viewable link to the complete database schema.
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/project.git
+2. Navigate to the project directory:
+    ```bash  
+   cd project
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+4. Run the application:
+   ```bash
+   python3 app.py
 
+## Tutorial
+- link here 
 
+### Usage
 
-## the continuation is not readme structure .. so you hve to do it your self ! ( you can copy structures form the opened readme files)
+1. Open the application in your browser by navigating to the link provided in your terminal after running Flask.
+2. Navigate through the following sections:
+   - Registration: Create a new account.
+   - Login: Log in with your credentials.
+   - Inbox: View your received emails.
+   - Compose: Send a new email.
+   - Profile: Update your personal details.
 
-Navigate to the project directory:
+3. Refer to the Screenshots Folder for visual guidance.
+   ![Project Photos]()
+-- For more info on how to use the website you can refer to the ![In-Depth Demo](#In-Depth-Demo)
 
-cd project
+---
 
-Install dependencies:
+### Built With
+- Python: Backend logic.
+- Flask: Web framework.
+- SQLite3: Database management.
+- HTML/CSS: Frontend design.
+- Jinja2: Template rendering.
 
-pip install -r requirements.txt
-
-Set up the database:
-
-python setup_database.py
-
-Run the application:
-
-flask run
-
-Usage
-
-Open the application in your browser at http://127.0.0.1:5000/.
-
-Navigate through the following sections:
-
-Registration: Create a new account.
-
-Login: Log in with your credentials.
-
-Inbox: View your received emails.
-
-Compose: Send a new email.
-
-Profile: Update your personal details.
-
-Refer to the Screenshots Folder for visual guidance. 
-
-Built With
-
-Python: Backend logic.
-
-Flask: Web framework.
-
-SQLite3: Database management.
-
-HTML/CSS: Frontend design.
-
-Jinja2: Template rendering.
-
-Werkzeug: Security utilities for password hashing.
-
-Contact Information
-
+### Contact Information
 For any questions or feedback, reach out via:
-
 Email: your.email@example.com
-
 GitHub: username
 
-Acknowledgments
-
+### Acknowledgments
 Special thanks to the CS50 team for inspiration.
-
 Flask Documentation: For excellent resources.
-
 Stack Overflow: For troubleshooting help.
