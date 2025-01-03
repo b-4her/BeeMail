@@ -48,7 +48,7 @@ The primary goal of this project was to apply the web development concepts and d
 ![Database Chart Image](Database/db_diagram.png) <!-- Add a link or embed the image here -->
 
 ### Schema Reference
-![Database Schema](Database/database_scheme.sql)
+> <a href="./Database/database_scheme.sq">Database Schema</a>
 
 ### Explanation
 - **Users Table**: Stores user details like name, email, hashed password, and verification question/answer.
@@ -115,8 +115,10 @@ For more information on how to use the website, please refer to [In-Depth Demo](
 
 ### Contact Information
 For any questions or feedback, reach out via:
-- Email: your.email@example.com
-- GitHub: username
+- LinkedIn: [b-4her](https://www.linkedin.com/in/b-4her)
+- GitHub: [b-4her](https://github.com/b-4her)
+- YouTube: [b-4her](https://www.youtube.com/@b-4her)
+- Email: b4her1info@gmail.com
 
 ### Acknowledgments
 Special thanks to the CS50 team for inspiration.
