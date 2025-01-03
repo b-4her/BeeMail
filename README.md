@@ -14,7 +14,7 @@
 5. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
-   - [Installation-Tutorial-Video](#inistallation-tutorial-video)
+   - [Installation-Tutorial-Video](#installation-tutorial-video)
 6. [Usage](#usage)
 7. [Built With](#built-with)
 8. [Contact Information](#contact-information)
