@@ -184,7 +184,7 @@ I would also like to thank W3Schools for their excellent documentation on CSS an
 [flask.com]: https://img.shields.io/badge/flask-b?style=for-the-badge&logo=flask&logoColor=white&color=black
 [flask-url]: https://flask.palletsprojects.com/en/stable/
 
-[Jinja.com]: https://werkzeug.palletsprojects.com/en/stable/
+[Jinja.com]: https://img.shields.io/badge/Jinja-b?logo=jinja&color=red
 [Jinja-url]: https://jinja.palletsprojects.com/en/stable/
 
 [SQLite.com]: https://img.shields.io/badge/SQLite-b?style=for-the-badge&logo=SQLite&logoColor=white&color=blue
