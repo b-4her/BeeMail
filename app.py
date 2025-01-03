@@ -787,7 +787,7 @@ def new_name():
 
 
 if __name__== "__main__":
-    app.run(debug=True)
+    app.run()
 
 
 db.commit()  # to apply changes
