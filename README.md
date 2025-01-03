@@ -4,30 +4,21 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/b-4her/BeeMail">
     <img src="./assets/project_logo.png" alt="Logo" width="160" height="160">
   </a>
-
   <h3 align="center"><b>BeeMail</b></h3>
-
   <p align="center"">
     <i>Speeding up your communication and uniting your team, BeeMail<i>
     <br/>
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://youtu.be/HhA8Dpr6IvQ">Quick Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7">In-Depth Demo</a>
   </p>
 </div>
-
-
-## Demo Link
-#### Quick Demo:  <URL [HERE](https://youtu.be/HhA8Dpr6IvQ)>
-#### In-Depth Demo:  <URL [HERE](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7)>
 
 ---
 
