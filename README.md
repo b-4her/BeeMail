@@ -165,6 +165,8 @@ For any questions or feedback, reach out via:
 - YouTube: [b-4her](https://www.youtube.com/@b-4her)
 - Email: b4her1info@gmail.com
 
+---
+
 ### Acknowledgments
 I would like to express my sincere thanks to the CS50 team for their continuous inspiration throughout this project. A special shoutout to Professor David Malan, whose impactful words, "Be comfortable being uncomfortable," helped me push through difficult moments, especially when tackling the large volume of material covered in the course.
 
