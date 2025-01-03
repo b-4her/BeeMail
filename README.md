@@ -4,11 +4,6 @@
 #### Quick Demo:  <URL [HERE](https://youtu.be/HhA8Dpr6IvQ)>
 #### In-Depth Demo:  <URL [HERE](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7)>
 
-you can link important files
-in setup: 
-clone repository to local machine?
-make video tutorial like adil?
-
 ---
 
 ## Table of Contents
@@ -19,6 +14,7 @@ make video tutorial like adil?
 5. [Getting Started](#getting-started)
    - [Prerequisites](#prerequisites)
    - [Installation](#installation)
+   - [Installation-Tutorial-Video](#inistallation-tutorial-video)
 6. [Usage](#usage)
 7. [Built With](#built-with)
 8. [Contact Information](#contact-information)
@@ -76,7 +72,7 @@ The primary goal of this project was to apply the web development concepts and d
 - Flask
 - SQLite3
 
-### Installation
+### Installation Tutorial Video
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/project.git
@@ -102,10 +98,10 @@ The primary goal of this project was to apply the web development concepts and d
    - Inbox: View your received emails.
    - Compose: Send a new email.
    - Profile: Update your personal details.
-
 3. Refer to the Screenshots Folder for visual guidance.
    ![Project Photos]()
--- For more info on how to use the website you can refer to the ![In-Depth Demo](#In-Depth-Demo)
+   
+For more information on how to use the website, please refer to [In-Depth Demo](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7) video.
 
 ---
 
@@ -115,11 +111,12 @@ The primary goal of this project was to apply the web development concepts and d
 - SQLite3: Database management.
 - HTML/CSS: Frontend design.
 - Jinja2: Template rendering.
+- Werkzeug: Security utilities for password hashing.
 
 ### Contact Information
 For any questions or feedback, reach out via:
-Email: your.email@example.com
-GitHub: username
+- Email: your.email@example.com
+- GitHub: username
 
 ### Acknowledgments
 Special thanks to the CS50 team for inspiration.
