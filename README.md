@@ -1,22 +1,13 @@
 # BeeMail
-#### Video Demo:  <URL [HERE](https://youtu.be/HhA8Dpr6IvQ)>
-#### In-Depth Demo: <URL [HERE](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7)>
-#### Description:
 
-some notes;
-Add the database chart in the readme file
-You can create a file that has the photos of the project (the first file should be the main of the project) - you might use it in the top too
+## Demo Link
+#### Quick Demo:  <URL [HERE](https://youtu.be/HhA8Dpr6IvQ)>
+#### In-Depth Demo:  <URL [HERE](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7)>
+
 you can link important files
 in setup: 
 clone repository to local machine?
-
-
-
-
-# Email Communication Website
-
-## Demo Link
-Provide a link to the YouTube video or demo showcasing the project.
+make video tutorial like adil?
 
 ---
 
