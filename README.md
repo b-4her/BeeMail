@@ -170,7 +170,7 @@ I would like to express my sincere thanks to the CS50 team for their continuous 
 
 I would also like to thank W3Schools for their excellent documentation on CSS and HTML, which served as an invaluable resource for implementing the frontend aspects of this project.
 
-* [CS50z](https://cs50.harvard.edu/x)
+* [CS50x](https://cs50.harvard.edu/x)
 * [W3schools](https://www.w3schools.com/)
 * [Img Shields](https://shields.io)
 
