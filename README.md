@@ -1,3 +1,5 @@
+<a id="readme-top"></a>
+
 # BeeMail 
 
 ## Demo Link
@@ -6,19 +8,28 @@
 
 ---
 
-## Table of Contents
-1. [Overview](#overview)
-2. [Key Features](#key-features)
-3. [Database Design](#database-design)
-4. [Challenges and Solutions](#challenges-and-solutions)
-5. [Getting Started](#getting-started)
-   - [Prerequisites](#prerequisites)
-   - [Installation](#installation)
-   - [Installation-Tutorial-Video](#installation-tutorial-video)
-6. [Usage](#usage)
-7. [Built With](#built-with)
-8. [Contact Information](#contact-information)
-9. [Acknowledgments](#acknowledgments)
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#key-features">Key Features</a></li>
+    <li><a href="#database-design">Database Design</a></li>
+    <li><a href="#challenges-and-solutions">Challenges and Solutions</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#installation-tutorial-video">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#contact-information">Contact Information</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
 ---
 
@@ -27,6 +38,8 @@ This project was developed as the final project for the CS50x course. It is a we
 
 ### Goal
 The primary goal of this project was to apply the web development concepts and database skills I learned in CS50x by creating an integrated web application.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -42,6 +55,8 @@ The primary goal of this project was to apply the web development concepts and d
 - **Profile Management**: Lets users view and update their profile information.
 - **Error Handling**: Catches database conflicts during simultaneous email submissions and prompts users to retry.
 
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ## Database Design
@@ -56,12 +71,16 @@ The primary goal of this project was to apply the web development concepts and d
 - **User Messages Table**: Links users to their sent and received emails.
 - **Responses Table**: Maps replies to their parent emails.
 
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ## Challenges and Solutions
 - **Simultaneous Email Submissions**: Solved using a unique database index combining content, subject, date, and time, along with `try-except` error handling.
 - **Password Security**: Implemented hashing to ensure passwords are never stored in plaintext.
 - **Data Integrity**: Used relational tables to maintain consistency between emails and responses.
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -86,8 +105,12 @@ The primary goal of this project was to apply the web development concepts and d
    ```bash
    python app.py
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Installation Tutorial Video
 https://github.com/user-attachments/assets/c1b57928-aa4c-4e0c-8d67-67175f7eb412
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Usage
 
@@ -103,15 +126,21 @@ https://github.com/user-attachments/assets/c1b57928-aa4c-4e0c-8d67-67175f7eb412
    
 For more information on how to use the website, please refer to [In-Depth Demo](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7) video.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ---
 
 ### Built With
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
 - Python: Backend logic.
 - Flask: Web framework.
 - SQLite3: Database management.
 - HTML/CSS/Bootstrap: Frontend design.
 - Jinja2: Template rendering.
 - Werkzeug: Security utilities for password hashing.
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Contact Information
 For any questions or feedback, reach out via:
@@ -124,3 +153,5 @@ For any questions or feedback, reach out via:
 Special thanks to the CS50 team for inspiration.
 Flask Documentation: For excellent resources.
 Stack Overflow: For troubleshooting help.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
