@@ -9,11 +9,11 @@
   </a>
   <h3 align="center"><b>BeeMail</b></h3>
   <p align="center"">
-    <i>Speeding up your communication and uniting your team, BeeMail<i>
+    <i>Speeding up your communication and uniting your team, BeeMail</i>
     <br/>
-    <a href="https://youtu.be/HhA8Dpr6IvQ"><strong>Quick Demo<strong></a>
+    <a href="https://youtu.be/HhA8Dpr6IvQ"><strong>Quick Demo</strong></a>
     ·
-    <a href="https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7"><strong>In-Depth Demo<strong></a>
+    <a href="https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7"><strong>In-Depth Demo</strong></a>
   </p>
 </div>
 
@@ -140,13 +140,14 @@ https://github.com/user-attachments/assets/c1b57928-aa4c-4e0c-8d67-67175f7eb412
 ### Usage
 
 1. Open the application in your browser by navigating to the link provided in your terminal after running Flask.
+
 2. Navigate through the following sections:
    - Registration: Create a new account.
    - Login: Log in with your credentials.
    - Inbox: View your received emails.
    - Compose: Send a new email.
    - Profile: Update your personal details.
-3. Please refer to the Project Photos folder for a visual overview.
+4. Please refer to the Project Photos folder for a visual overview.
    >  <a href="./assets/project photos/pages.pdf">Project Photos</a>
    
 For more information on how to use the website, please refer to [In-Depth Demo](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7) video.
