@@ -72,7 +72,7 @@ The primary goal of this project was to apply the web development concepts and d
 - Flask
 - SQLite3
 
-### Installation Tutorial Video
+### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/username/project.git
@@ -86,7 +86,7 @@ The primary goal of this project was to apply the web development concepts and d
    ```bash
    python3 app.py
 
-## Tutorial
+### Installation Tutorial Video
 - link here 
 
 ### Usage
