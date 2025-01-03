@@ -75,10 +75,10 @@ The primary goal of this project was to apply the web development concepts and d
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/project.git
+   git clone https://github.com/b-4her/BeeMail.git
 2. Navigate to the project directory:
     ```bash  
-   cd project
+   cd BeeMail
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
