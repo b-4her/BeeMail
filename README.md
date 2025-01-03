@@ -11,7 +11,7 @@
   <p align="center"">
     <i>Speeding up your communication and uniting your team, BeeMail<i>
     <br/>
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/b-4her/BeeMail"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://youtu.be/HhA8Dpr6IvQ">Quick Demo</a>
