@@ -89,7 +89,7 @@ The primary goal of this project was to apply the web development concepts and d
 ![Database Chart Image](Database/db_diagram.png) <!-- Add a link or embed the image here -->
 
 ### Schema Reference
-> <a href="./Database/database_scheme.sql">Database Schema</a>
+> <a href="./Database/db_schema.sql">Database Schema</a>
 
 ### Explanation
 - **Users Table**: Stores user details like name, email, hashed password, and verification question/answer.
