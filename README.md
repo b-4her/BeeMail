@@ -84,7 +84,7 @@ The primary goal of this project was to apply the web development concepts and d
    pip install -r requirements.txt
 4. Run the application:
    ```bash
-   python3 app.py
+   python app.py
 
 ### Installation Tutorial Video
 - link here 
