@@ -11,7 +11,7 @@
   <h3 align="center">BeeMail</h3>
 
   <p align="center"">
-    <u><i>Speeding up your communication and uniting your team, BeeMail<i><u>
+    <u><i>Speeding up your communication and uniting your team, BeeMail<i></u>
     <br/>
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
