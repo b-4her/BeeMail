@@ -87,7 +87,7 @@ The primary goal of this project was to apply the web development concepts and d
    python app.py
 
 ### Installation Tutorial Video
-- link here 
+https://github.com/user-attachments/assets/c1b57928-aa4c-4e0c-8d67-67175f7eb412
 
 ### Usage
 
