@@ -11,12 +11,9 @@
   <p align="center"">
     <i>Speeding up your communication and uniting your team, BeeMail<i>
     <br/>
-    <a href="https://github.com/b-4her/BeeMail"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://youtu.be/HhA8Dpr6IvQ">Quick Demo</a>
+    <a href="https://youtu.be/HhA8Dpr6IvQ"><strong>Quick Demo<strong></a>
     ·
-    <a href="https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7">In-Depth Demo</a>
+    <a href="https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7"><strong>In-Depth Demo<strong></a>
   </p>
 </div>
 
