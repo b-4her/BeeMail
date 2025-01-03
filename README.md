@@ -98,8 +98,8 @@ https://github.com/user-attachments/assets/c1b57928-aa4c-4e0c-8d67-67175f7eb412
    - Inbox: View your received emails.
    - Compose: Send a new email.
    - Profile: Update your personal details.
-3. Refer to the Screenshots Folder for visual guidance.
-   ![Project Photos]()
+3. Please refer to the Project Photos folder for a visual overview.
+   >  <a href="./assets/project photos/pages.pdf">Project Photos</a>
    
 For more information on how to use the website, please refer to [In-Depth Demo](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7) video.
 
@@ -109,7 +109,7 @@ For more information on how to use the website, please refer to [In-Depth Demo](
 - Python: Backend logic.
 - Flask: Web framework.
 - SQLite3: Database management.
-- HTML/CSS: Frontend design.
+- HTML/CSS/Bootstrap: Frontend design.
 - Jinja2: Template rendering.
 - Werkzeug: Security utilities for password hashing.
 
