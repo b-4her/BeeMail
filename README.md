@@ -71,14 +71,15 @@ The primary goal of this project was to apply the web development concepts and d
 ---
 
 ### Built With
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
-- Python: Backend logic.
-- Flask: Web framework.
-- SQLite3: Database management.
-- HTML/CSS/Bootstrap: Frontend design.
-- Jinja2: Template rendering.
-- Werkzeug: Security utilities for password hashing.
+* [![Python][Python.com]][Python-url]
+* [![Flask][Flask.com]][Flask-url]
+* [![Jinja][Jinja.com]][Jinja-url]
+* [![SQLite][SQLite.com]][SQLite-url]
+* [![HTML][HTML.com]][HTML-url]
+* [![CSS][CSS.com]][CSS-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![Werkzeug][Werkzeug.com]][Werkzeug-url]
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,12 +166,40 @@ For any questions or feedback, reach out via:
 - Email: b4her1info@gmail.com
 
 ### Acknowledgments
-Special thanks to the CS50 team for inspiration.
-Flask Documentation: For excellent resources.
-Stack Overflow: For troubleshooting help.
+I would like to express my sincere thanks to the CS50 team for their continuous inspiration throughout this project. A special shoutout to Professor David Malan, whose impactful words, "Be comfortable being uncomfortable," helped me push through difficult moments, especially when tackling the large volume of material covered in the course.
+
+I would also like to thank W3Schools for their excellent documentation on CSS and HTML, which served as an invaluable resource for implementing the frontend aspects of this project.
+
+* [CS50z](https://cs50.harvard.edu/x)
+* [W3schools](https://www.w3schools.com/)
+* [Img Shields](https://shields.io)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
+
+[Python.com]: https://img.shields.io/badge/python-b?style=for-the-badge&logo=python&logoColor=yellow&color=blue
+[python-url]: https://www.python.org
+
+[flask.com]: https://img.shields.io/badge/flask-b?style=for-the-badge&logo=flask&logoColor=white&color=black
+[flask-url]: https://flask.palletsprojects.com/en/stable/
+
+[Jinja.com]: https://werkzeug.palletsprojects.com/en/stable/
+[Jinja-url]: https://jinja.palletsprojects.com/en/stable/
+
+[SQLite.com]: https://img.shields.io/badge/SQLite-b?style=for-the-badge&logo=SQLite&logoColor=white&color=blue
+[SQlite-url]: https://www.sqlite.org
+
+[HTML.com]: https://img.shields.io/badge/Html-b?style=for-the-badge&logo=Html&logoColor=white&color=red
+[HTML-url]:https://developer.mozilla.org/en-US/docs/Web/HTML
+
+[CSS.com]: https://img.shields.io/badge/css-b?style=for-the-badge&logo=css&logoColor=white&color=blue
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[Bootstrap-url]: https://getbootstrap.com
+
+[Werkzeug.com]: https://img.shields.io/badge/Werkzeug-b?style=for-the-badge&logo=Werkzeug&logoColor=white&color=orange
+[Werkzeug-url]: https://werkzeug.palletsprojects.com/en/stable/
+
+
