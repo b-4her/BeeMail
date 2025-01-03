@@ -155,3 +155,7 @@ Flask Documentation: For excellent resources.
 Stack Overflow: For troubleshooting help.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
