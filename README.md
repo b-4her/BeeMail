@@ -5,12 +5,16 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="./assets/project_logo.png" alt="Logo" width="80" height="80">
+    <img src="./assets/project_logo.png" alt="Logo" width="160" height="160">
   </a>
 
   <h3 align="center">BeeMaile</h3>
 
-  <p align="center" stylee="font-">
+  <p align="center" stylee="font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration-line: underline;">
     Speeding up your communication and uniting your team, BeeMail
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
