@@ -25,6 +25,7 @@
   <ol>
     <li><a href="#overview">Overview</a></li>
     <li><a href="#key-features">Key Features</a></li>
+    <li><a href="#built-with">Built With</a></li>
     <li><a href="#database-design">Database Design</a></li>
     <li><a href="#challenges-and-solutions">Challenges and Solutions</a></li>
     <li>
@@ -36,7 +37,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#built-with">Built With</a></li>
     <li><a href="#contact-information">Contact Information</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -65,6 +65,20 @@ The primary goal of this project was to apply the web development concepts and d
 - **Email Replies**: Supports replies linked to parent emails using a dedicated "responses" table.
 - **Profile Management**: Lets users view and update their profile information.
 - **Error Handling**: Catches database conflicts during simultaneous email submissions and prompts users to retry.
+
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+### Built With
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+
+- Python: Backend logic.
+- Flask: Web framework.
+- SQLite3: Database management.
+- HTML/CSS/Bootstrap: Frontend design.
+- Jinja2: Template rendering.
+- Werkzeug: Security utilities for password hashing.
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,8 +113,6 @@ The primary goal of this project was to apply the web development concepts and d
 
 ### Prerequisites
 - Python 3.10 or higher
-- Flask
-- SQLite3
 
 ### Installation
 1. Clone the repository:
@@ -123,6 +135,8 @@ https://github.com/user-attachments/assets/c1b57928-aa4c-4e0c-8d67-67175f7eb412
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+---
+
 ### Usage
 
 1. Open the application in your browser by navigating to the link provided in your terminal after running Flask.
@@ -141,17 +155,6 @@ For more information on how to use the website, please refer to [In-Depth Demo](
 
 ---
 
-### Built With
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-
-- Python: Backend logic.
-- Flask: Web framework.
-- SQLite3: Database management.
-- HTML/CSS/Bootstrap: Frontend design.
-- Jinja2: Template rendering.
-- Werkzeug: Security utilities for password hashing.
-
-  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Contact Information
 For any questions or feedback, reach out via:
