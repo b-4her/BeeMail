@@ -8,10 +8,10 @@
     <img src="./assets/project_logo.png" alt="Logo" width="160" height="160">
   </a>
 
-  <h3 align="center">BeeMail</h3>
+  <h3 align="center"><bBeeMail></b></h3>
 
   <p align="center"">
-    <u><i>Speeding up your communication and uniting your team, BeeMail<i></u>
+    <i>Speeding up your communication and uniting your team, BeeMail<i>
     <br/>
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
