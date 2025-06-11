@@ -38,7 +38,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contact-information">Contact Information</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#acknowledgments">Resources Used</a></li>
   </ol>
 </details>
 
@@ -168,14 +168,14 @@ For any questions or feedback, reach out via:
 
 ---
 
-### Acknowledgments
-I would like to express my sincere thanks to the CS50 team for their continuous inspiration throughout this project. A special shoutout to Professor David Malan, whose impactful words, "Be comfortable being uncomfortable," helped me push through difficult moments, especially when tackling the large volume of material covered in the course.
+### Resources Used
 
-I would also like to thank W3Schools for their excellent documentation on CSS and HTML, which served as an invaluable resource for implementing the frontend aspects of this project.
+This project was developed using the CS50x course materials as a foundation. Frontend implementation was supported by documentation from W3Schools for HTML and CSS. Badge visuals were generated using Shields.io.
 
-* [CS50x](https://cs50.harvard.edu/x)
-* [W3schools](https://www.w3schools.com/)
-* [Img Shields](https://shields.io)
+- [CS50x](https://cs50.harvard.edu/x)  
+- [W3Schools](https://www.w3schools.com/)  
+- [Shields.io](https://shields.io)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
