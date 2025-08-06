@@ -56,6 +56,7 @@ The primary goal of this project was to apply the web development concepts and d
 ---
 
 ## Key Features
+
 - **User Registration**: Validates email structure and checks for duplicates before hashing passwords for secure storage.
 - **Login System**: Ensures authentication by validating credentials against hashed passwords.
 - **Password Reset**: Allows users to reset their password securely using a verification question.
@@ -65,6 +66,12 @@ The primary goal of this project was to apply the web development concepts and d
 - **Compose Email**: Enables users to send emails with subject, content, and recipient validation.
 - **Email Replies**: Supports replies linked to parent emails using a dedicated "responses" table.
 - **Profile Management**: Lets users view and update their profile information.
+- **Unread Message Notifications**: Highlights new/unread primary and reply messages for better visibility.
+- **Verification Question Management**: Allows users to set or update their security question and answer for password recovery.
+- **Responsive Design**: Uses Bootstrap and custom CSS to ensure the application works well on different devices.
+- **Detailed Email View**: Lets users view full details of each message, including threaded replies.
+- **Robust Access Control**: Restricts access to sensitive routes and data based on authentication status.
+- **Comprehensive Feedback**: Provides clear error and success messages for all major actions.
 - **Error Handling**: Catches database conflicts during simultaneous email submissions and prompts users to retry.
 
   <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -135,11 +142,29 @@ Below is a summary of the main routes and their functionality in BeeMail:
 ---
 
 ## Challenges and Solutions
-- **Simultaneous Email Submissions**: Solved using a unique database index combining content, subject, date, and time, along with `try-except` error handling.
-- **Password Security**: Implemented hashing to ensure passwords are never stored in plaintext.
-- **Data Integrity**: Used relational tables to maintain consistency between emails and responses.
 
-  <p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **User Authentication & Security**:  
+  Implemented secure password hashing and session management to protect user data. Verification questions add an extra layer of security for password resets.
+
+- **Data Integrity & Consistency**:  
+  Utilized relational database design with foreign keys to ensure messages, users, and responses remain consistent and linked correctly.
+
+- **Simultaneous Email Submissions**:  
+  Addressed potential database conflicts by using a unique index on email content, subject, date, and time, combined with `try-except` error handling to prevent duplicate entries.
+
+- **Email Threading & Replies**:  
+  Designed a dedicated "responses" table to efficiently map replies to parent emails, enabling clear conversation threads.
+
+- **User Experience & Error Handling**:  
+  Provided clear feedback for invalid actions (e.g., duplicate registration, invalid login, or failed email delivery) and ensured users are prompted to retry when necessary.
+
+- **Frontend & Backend Integration**:  
+  Integrated Flask with Jinja templates, Bootstrap, and custom CSS to deliver a responsive and intuitive user interface.
+
+- **Deployment & Environment Setup**:  
+  Simplified installation and setup with clear prerequisites, requirements file, and tutorial resources to help users get started quickly.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
@@ -173,18 +198,21 @@ https://github.com/user-attachments/assets/c1b57928-aa4c-4e0c-8d67-67175f7eb412
 
 ### Usage
 
-1. Open the application in your browser by navigating to the link provided in your terminal after running Flask.
+1. Start the application by running `python app.py` and open the provided local URL in your browser.
 
-2. Navigate through the following sections:
-   - Registration: Create a new account.
-   - Login: Log in with your credentials.
-   - Inbox: View your received emails.
-   - Compose: Send a new email.
-   - Profile: Update your personal details.
-4. Please refer to the Project Photos folder for a visual overview.
-   >  <a href="./assets/project photos/pages.pdf">Project Photos</a>
-   
-For more information on how to use the website, please refer to [In-Depth Demo](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7) video.
+2. Explore the main features:
+   - **Registration:** Create a new account with your email and password.
+   - **Login:** Access your account using your credentials.
+   - **Inbox:** View all received emails, with unread messages highlighted.
+   - **Sent:** Review emails you have sent.
+   - **Compose:** Send new emails to other users.
+   - **Reply:** Respond to received emails and view threaded conversations.
+   - **Profile:** View and update your personal information, including your verification question.
+
+3. For a visual walkthrough, see the Project Photos:
+   > <a href="./assets/project photos/pages.pdf">Project Photos</a>
+
+4. For a detailed demonstration, watch the [In-Depth Demo](https://youtu.be/k5HBm5l-yJ8?si=QjAO20z61ZZukZP7) video.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
