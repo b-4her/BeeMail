@@ -21,7 +21,7 @@ Session(app)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # creating absolute path
-db_path = os.path.join(BASE_DIR, "Database/beemail.db")
+db_path = os.path.join(BASE_DIR, "database/beemail.db")
 db = sqlite3.connect(db_path, check_same_thread=False)
 cur = db.cursor()  # cursor
 
