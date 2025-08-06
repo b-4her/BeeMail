@@ -185,7 +185,7 @@ Below is a summary of the main routes and their functionality in BeeMail:
    pip install -r requirements.txt
 4. Run the application:
    ```bash
-   python app.py
+   python3 app.py
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
