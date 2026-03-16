@@ -9,6 +9,8 @@
   </a>
   <h3 align="center"><b>BeeMail</b></h3>
   <p align="center"">
+    <b>Date:</b> January 1, 2025  
+    <br/>
     <i>Speeding up your communication and uniting your team, BeeMail</i>
     <br/>
     <a href="https://youtu.be/HhA8Dpr6IvQ"><strong>Quick Demo</strong></a>
